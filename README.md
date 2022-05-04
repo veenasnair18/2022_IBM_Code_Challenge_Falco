@@ -10,9 +10,12 @@
 5. <a href =  "https://github.com/Vysakh-T">Vysakh T </a>, RIT Kottayam
 6. <a href =  "https://github.com/veenasnair18">Veena S Kumar </a>, RIT Kottayam
 
+<a href="https://github.com/veenasnair18/2022_IBM_Code_Challenge_Drone_Delivery/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=veenasnair18/2022_IBM_Code_Challenge_Drone_Delivery" />
+</a>
+
 <!-- TABLE OF CONTENTS -->
 ### :pushpin: Table of Contents
-<details>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#problem-statement">Problem Statement</a></li>
