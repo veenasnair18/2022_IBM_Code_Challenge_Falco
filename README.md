@@ -11,8 +11,8 @@
 6. <a href =  "https://github.com/veenasnair18">Veena S Kumar </a>, RIT Kottayam
 
 <!-- TABLE OF CONTENTS -->
+### :pushpin: Table of Contents
 <details>
-  <summary>Table of Contents</summary>
   <ol>
     <li><a href="#about-the-project">About The Project</a></li>
     <li><a href="#problem-statement">Problem Statement</a></li>
