@@ -36,7 +36,7 @@ class OtpView extends GetView<OtpController> {
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
-                        "E-Akshaya",
+                        "Drone Customer",
                         style: GoogleFonts.poppins(
                             textStyle: AppTheme.appTextTheme.txt40blue),
                       )
