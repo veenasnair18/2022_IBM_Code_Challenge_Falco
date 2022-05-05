@@ -21,18 +21,26 @@ The fast growth of online ordering has increased the demand for delivery labour 
 
 # :bust_in_silhouette: Personas of the System
 Whom this system is most beneficial for?
-1. Business Owners 
-a. Reduces labour cost. 
-b. Fastest method.
-c. Business expansion .
-2. Customers
-a. No contact delivery.
-b. Less time delay.
+<ol>
+  <li>Business Owners</li>
+  <ul>
+    <li>Reduces Labour cost</li>
+    <li>Fastest method</li>
+    <li>Business Expansion</li>
+  </ul>
+  <li>Customers</li>
+  <ul>
+    <li>No contact delivery</li>
+    <li>Less time delay in deliveru</li>
+  </ul>
+</ol>
+
 
 
 # :jigsaw: Architecture
 ## 1. The architecture diagram 
-![architecture diagram](https://user-images.githubusercontent.com/38048590/166970583-e016e7c2-e751-4e1a-931a-d0af982d4df8.jpg)
+![architecture diagram](https://user-images.githubusercontent.com/38048590/166973102-932d4005-77f0-4f92-a1f2-9256fc40546a.jpg)
+
 
 ## 2. The control flow graph
 ![control flow graph](https://user-images.githubusercontent.com/38048590/166970670-5e95da42-0106-40de-b617-8733c44b203d.png)
