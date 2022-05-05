@@ -31,16 +31,16 @@ b. Less time delay.
 
 
 ## Architecture
-1. The architecture diagram 
+# 1. The architecture diagram 
 ![architecture diagram](https://user-images.githubusercontent.com/38048590/166970583-e016e7c2-e751-4e1a-931a-d0af982d4df8.jpg)
 
-2. The control flow graph
+# 2. The control flow graph
 ![control flow graph](https://user-images.githubusercontent.com/38048590/166970670-5e95da42-0106-40de-b617-8733c44b203d.png)
 
-3. The use case diagram
+# 3. The use case diagram
 ![usecase diagram](https://user-images.githubusercontent.com/38048590/166970713-177265e4-8b5e-4707-b9b3-a7a867bbbddc.jpeg)
 
-4. The data model
+# 4. The data model
 ![data model](https://user-images.githubusercontent.com/38048590/166970784-ea84fa89-2ad0-41fb-91f5-ef7edd5330b6.png)
 
 
