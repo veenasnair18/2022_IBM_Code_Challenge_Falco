@@ -32,7 +32,7 @@ The fast growth of online ordering has increased the demand for delivery labour 
   <li>Customers</li>
   <ul>
     <li>No contact delivery</li>
-    <li>Less time delay in deliveru</li>
+    <li>Less time delay in delivery</li>
   </ul>
 </ol>
 
