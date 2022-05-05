@@ -12,11 +12,23 @@
 5. <a href =  "https://github.com/Vysakh-T">Vysakh T </a>, RIT Kottayam
 6. <a href =  "https://github.com/veenasnair18">Veena S Kumar </a>, RIT Kottayam
 
-## Problem Statement
+## :rocket: Problem Statement
+The fast growth of online ordering has increased the demand for delivery labour in a tenfold. The aim of our project was to create a drone that can be used to deliver parcels to your doorstep.Our drone will be able to avoid any collision such as trees,buildings, other UAVs or sign boards.
 
-## Personas of the System
+
+## :bust_in_silhouette: Personas of the System
+Whom this system is most beneficial for?
+1.Business Owners 
+a.Reduces labour cost. 
+b.Fastest method.
+c.Business expansion .
+2.Customers
+a.No contact delivery.
+b.less time delay.
+
 
 ## Architecture
+
 
 <!-- ABOUT THE PROJECT -->
 ## :bulb: About The Project
