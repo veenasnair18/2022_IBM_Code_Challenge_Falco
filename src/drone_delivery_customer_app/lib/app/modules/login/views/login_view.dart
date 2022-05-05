@@ -28,30 +28,31 @@ class LoginView extends GetView<LoginController> {
               width: double.infinity,
               child: Column(
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Text(
+                        "Falco",
+                        style: GoogleFonts.montserrat(
+                            textStyle: AppTheme.appTextTheme.txt18grey),
+                      )
+                    ],
+                  ),
                   Image.asset(
                     "lib/assets/images/png/logo.png",
                     width: 100,
                     height: 100,
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Text(
-                        "Drone Customer",
-                        style: GoogleFonts.poppins(
-                            textStyle: AppTheme.appTextTheme.txt40blue),
-                      )
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
                         "Login",
-                        style: GoogleFonts.montserrat(
-                            textStyle: AppTheme.appTextTheme.txt18grey),
+                        style: GoogleFonts.poppins(
+                            textStyle: AppTheme.appTextTheme.txt40white
+                                .copyWith(fontWeight: FontWeight.bold)),
                       )
                     ],
                   ),

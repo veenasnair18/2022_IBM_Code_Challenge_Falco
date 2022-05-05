@@ -28,7 +28,7 @@ class SignupController extends GetxController {
       user.email = email;
       if (await Authentication.updateUserDetails(user)) {
         showToast("Logged In");
-        //Get.offAndToNamed('/main', arguments: user);
+        Get.offAndToNamed('/home', arguments: user);
       }
     } else
       showToast("Invalid Details");

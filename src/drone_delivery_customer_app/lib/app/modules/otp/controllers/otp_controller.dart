@@ -60,7 +60,7 @@ class OtpController extends GetxController {
       Get.offAndToNamed('/signup', arguments: this.user);
     else {
       showToast("Logged In");
-      Get.offAndToNamed('/location', arguments: this.user);
+      Get.offAndToNamed('/home', arguments: this.user);
     }
   }
 }

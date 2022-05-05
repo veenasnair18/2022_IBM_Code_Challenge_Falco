@@ -13,20 +13,6 @@ Widget inputField(
     bool? isPassword,
     int? maxChar}) {
   return Container(
-    decoration: BoxDecoration(
-      borderRadius: BorderRadius.all(
-        Radius.circular(50),
-      ),
-      boxShadow: [
-        BoxShadow(
-          color: Colors.black,
-          blurRadius: 25,
-          offset: Offset(0, 5),
-          spreadRadius: -25,
-        ),
-      ],
-    ),
-    margin: EdgeInsets.only(bottom: 20),
     child: TextField(
       controller: controller,
       maxLength: maxChar ?? 20,
@@ -36,35 +22,29 @@ Widget inputField(
           : TextInputType.text,
       style: GoogleFonts.poppins(
           fontSize: 20,
-          color: Colors.black,
+          color: Color.fromARGB(255, 255, 255, 255),
           letterSpacing: 0.24,
           fontWeight: FontWeight.w500),
       decoration: InputDecoration(
+        enabledBorder: UnderlineInputBorder(
+          borderSide: BorderSide(color: Colors.white, width: 3),
+        ),
+        focusedBorder: UnderlineInputBorder(
+          borderSide: BorderSide(color: Colors.white),
+        ),
         counterText: "",
         hintText: title,
         hintStyle: TextStyle(
-          color: Color(0xffA6B0BD),
+          color: Color.fromARGB(255, 255, 255, 255),
         ),
-        fillColor: Colors.white,
+        fillColor: AppTheme.appColorTheme.primaryColor,
         filled: true,
         suffixIcon: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Icon(
             icon,
-            color: AppTheme.appColorTheme.primaryColor.withOpacity(0.7),
+            color: AppTheme.appColorTheme.colorWhite.withOpacity(0.7),
           ),
-        ),
-        enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.all(
-            Radius.circular(1),
-          ),
-          borderSide: BorderSide(color: Colors.white),
-        ),
-        focusedBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.all(
-            Radius.circular(1),
-          ),
-          borderSide: BorderSide(color: Colors.white),
         ),
       ),
     ),
@@ -76,7 +56,7 @@ Widget longButton({required String name, required Function onClick}) {
   return FlatButton(
     onPressed: () => onClick(),
     padding: EdgeInsets.symmetric(
-        vertical: 20, horizontal: SizeConfig.safeBlockHorizontal * 32),
+        vertical: 20, horizontal: SizeConfig.safeBlockHorizontal * 15),
     shape: new RoundedRectangleBorder(
       borderRadius: new BorderRadius.circular(20.0),
     ),
@@ -84,11 +64,11 @@ Widget longButton({required String name, required Function onClick}) {
       name,
       style: GoogleFonts.montserrat(
           fontSize: 20,
-          color: AppTheme.appColorTheme.colorWhite,
+          color: AppTheme.appColorTheme.primaryColor,
           letterSpacing: 0.168,
           fontWeight: FontWeight.w500),
     ),
-    color: AppTheme.appColorTheme.primaryColor,
+    color: AppTheme.appColorTheme.colorWhite,
   );
 }
 
@@ -118,8 +98,8 @@ Widget dialogBox(
       children: [
         Text(
           title,
-          style:
-              GoogleFonts.poppins(textStyle: AppTheme.appTextTheme.txt40blue),
+          style: GoogleFonts.poppins(
+              textStyle: AppTheme.appTextTheme.txt40primary),
         ),
         SizedBox(
           height: 20,

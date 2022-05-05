@@ -26,30 +26,31 @@ class OtpView extends GetView<OtpController> {
               width: double.infinity,
               child: Column(
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Text(
+                        "Falco",
+                        style: GoogleFonts.montserrat(
+                            textStyle: AppTheme.appTextTheme.txt18grey),
+                      )
+                    ],
+                  ),
                   Image.asset(
                     "lib/assets/images/png/logo.png",
                     width: 100,
                     height: 100,
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Text(
-                        "Drone Customer",
-                        style: GoogleFonts.poppins(
-                            textStyle: AppTheme.appTextTheme.txt40blue),
-                      )
-                    ],
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
                         "Verify OTP",
-                        style: GoogleFonts.montserrat(
-                            textStyle: AppTheme.appTextTheme.txt18grey),
+                        style: GoogleFonts.poppins(
+                            textStyle: AppTheme.appTextTheme.txt40white
+                                .copyWith(fontWeight: FontWeight.bold)),
                       )
                     ],
                   ),
@@ -63,7 +64,7 @@ class OtpView extends GetView<OtpController> {
                   resentCode(),
                   SizedBox(height: SizeConfig.blockSizeVertical * 12),
                   Text(
-                    "by Rit CSE Group 11",
+                    "2022_IBM_Code_Challenge_Drone_Delivery",
                     style: GoogleFonts.montserrat(
                         textStyle: AppTheme.appTextTheme.txt12grey),
                   )
@@ -128,7 +129,7 @@ Widget OtpSingleInput(context, {required TextEditingController controller}) {
       controller: controller,
       keyboardType: TextInputType.number,
       maxLength: 1,
-      style: AppTheme.appTextTheme.txt40blue.copyWith(fontSize: 36),
+      style: AppTheme.appTextTheme.txt40primary.copyWith(fontSize: 36),
       decoration: InputDecoration(border: InputBorder.none, counterText: ""),
       onChanged: (value) {
         FocusScope.of(context).nextFocus();
@@ -149,8 +150,10 @@ Widget resentCode() {
         child: Text(
           "Resend",
           style: GoogleFonts.montserrat(
-            color: AppTheme.appColorTheme.primaryColor,
-            textStyle: AppTheme.appTextTheme.txt12grey.copyWith(fontSize: 17),
+            color: AppTheme.appColorTheme.colorWhite,
+            textStyle: AppTheme.appTextTheme.txt12grey
+                .copyWith(color: Colors.white.withOpacity(0.6))
+                .copyWith(fontSize: 17, fontWeight: FontWeight.bold),
           ),
         ),
         onTap: () {},

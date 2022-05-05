@@ -24,50 +24,51 @@ class SignupView extends GetView<SignupController> {
               width: double.infinity,
               child: Column(
                 children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Text(
+                        "Falco",
+                        style: GoogleFonts.montserrat(
+                            textStyle: AppTheme.appTextTheme.txt18grey),
+                      )
+                    ],
+                  ),
                   Image.asset(
                     "lib/assets/images/png/logo.png",
                     width: 100,
                     height: 100,
                   ),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
-                        "Drone Customer",
+                        "Register Now",
                         style: GoogleFonts.poppins(
-                            textStyle: AppTheme.appTextTheme.txt40blue),
+                            textStyle: AppTheme.appTextTheme.txt40white
+                                .copyWith(fontWeight: FontWeight.bold)),
                       )
                     ],
                   ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Text(
-                        "Register",
-                        style: GoogleFonts.montserrat(
-                            textStyle: AppTheme.appTextTheme.txt18grey),
-                      )
-                    ],
-                  ),
-                  SizedBox(height: SizeConfig.blockSizeVertical * 3),
+                  SizedBox(height: SizeConfig.blockSizeVertical * 5),
                   inputField(
                       icon: Icons.person,
                       title: "Name",
                       controller: controller.name),
-                  SizedBox(height: SizeConfig.blockSizeVertical * 1),
+                  SizedBox(height: SizeConfig.blockSizeVertical * 5),
                   inputField(
                       icon: Icons.numbers,
                       title: "Age",
                       isPhoneNumber: true,
                       controller: controller.age),
-                  SizedBox(height: SizeConfig.blockSizeVertical * 1),
+                  SizedBox(height: SizeConfig.blockSizeVertical * 5),
                   inputField(
                       icon: Icons.email,
                       title: "Email Address",
                       controller: controller.email),
-                  SizedBox(height: SizeConfig.blockSizeVertical * 3),
+                  SizedBox(height: SizeConfig.blockSizeVertical * 5),
                   longButton(
                       name: "Register", onClick: () => controller.onRegister()),
                   SizedBox(height: SizeConfig.blockSizeVertical * 8),

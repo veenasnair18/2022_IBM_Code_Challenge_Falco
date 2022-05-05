@@ -4,14 +4,19 @@ class AppTextTheme {
   late TextStyle txt12grey;
   late TextStyle txt18grey;
   late TextStyle txt24grey;
-  late TextStyle txt40blue;
+  late TextStyle txt40primary;
+  late TextStyle txt40white;
 
   AppTextTheme.lightTheme() {
-    this.txt12grey = TextStyle(color: Color(0xFF8F8B8B), fontSize: 12);
-    this.txt18grey = TextStyle(color: Color(0xFF8F8B8B), fontSize: 18);
-    this.txt24grey = TextStyle(color: Color(0xFF8F8B8B), fontSize: 24);
-    this.txt40blue =
-        TextStyle(fontSize: 40, color: Color.fromARGB(255, 21, 134, 46));
+    this.txt12grey =
+        TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 12);
+    this.txt18grey =
+        TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 18);
+    this.txt24grey =
+        TextStyle(color: Color.fromARGB(255, 255, 255, 255), fontSize: 24);
+    this.txt40primary = TextStyle(fontSize: 40, color: Color(0xFFA85CF9));
+    this.txt40white =
+        TextStyle(fontSize: 40, color: Color.fromARGB(255, 255, 255, 255));
   }
 
   AppTextTheme.darkTheme() {}
@@ -33,8 +38,8 @@ class AppColorTheme {
 
   AppColorTheme.lightTheme() {
     colorBlack = Color.fromARGB(255, 0, 0, 0);
-    colorBackground = Color(0xFFFFFFFF);
-    primaryColor = Color.fromARGB(255, 15, 172, 75);
+    colorBackground = Color(0xFFA85CF9);
+    primaryColor = Color(0xFFA85CF9);
     secondaryColor = Color.fromRGBO(108, 219, 251, 1);
     colorGrey = Color.fromARGB(255, 212, 212, 212);
     colorWhite = Color(0xFFFFFFFF);

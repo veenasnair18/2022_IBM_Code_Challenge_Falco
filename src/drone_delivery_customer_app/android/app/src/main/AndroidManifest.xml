@@ -4,6 +4,8 @@
         android:label="drone_delivery_customer"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+        <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyDR_f2180qK2NM1zjZg0lPBJQeButQm7OQ"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"
