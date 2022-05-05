@@ -1,6 +1,6 @@
 
 # :small_airplane: Falco
-![drone_delivery-removebg-preview](https://user-images.githubusercontent.com/38048590/166652285-784d3b30-de2c-4d8f-9c23-7e0c7022fc41.png)
+![falco](https://user-images.githubusercontent.com/38048590/166977506-bd4ad81c-a67d-4da5-bdcd-a242e3d417f9.png)
 
 # 
 An application that promises you fastest and no contact delivery. 
@@ -15,6 +15,8 @@ An application that promises you fastest and no contact delivery.
 5. <a href =  "https://github.com/Vysakh-T">Vysakh T </a>, RIT Kottayam
 6. <a href =  "https://github.com/veenasnair18">Veena S Kumar </a>, RIT Kottayam
 
+![drone_delivery-removebg-preview](https://user-images.githubusercontent.com/38048590/166652285-784d3b30-de2c-4d8f-9c23-7e0c7022fc41.png)
+</br>
 # :rocket: Problem Statement
 The fast growth of online ordering has increased the demand for delivery labour in a tenfold. The aim of our project was to create a drone that can be used to deliver parcels to your doorstep.Our drone will be able to avoid any collision such as trees,buildings, other UAVs or sign boards.
 
