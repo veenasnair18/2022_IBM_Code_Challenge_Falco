@@ -1,0 +1,35 @@
+name: drone_delivery_customer
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.16.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.1
+  flutter: 
+    sdk: flutter
+  firebase_core: ^1.13.1
+  firebase_auth: ^3.3.11
+  font_awesome_flutter: ^9.0.0
+  google_fonts: ^2.0.0
+  fluttertoast: ^8.0.9
+  cloud_firestore: ^3.1.10
+  fancy_bottom_bar: ^0.0.1
+  geolocator: ^7.0.3
+  connectivity: ^3.0.3
+  getwidget: ^ 2.0.4
+  flutter_rating_bar: ^4.0.0
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+
+  assets:
+    - lib/assets/images/png/

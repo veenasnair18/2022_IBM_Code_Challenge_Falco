@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "672594017604",
+    "project_id": "dronedelivery-663aa",
+    "storage_bucket": "dronedelivery-663aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672594017604:android:e6d80b07a7b324b32f2b11",
+        "android_client_info": {
+          "package_name": "com.ibmgruop43.drone_delivery_customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672594017604-tq0p7bp1v706ss5gcc13i1li6fven6e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvs3n0xo8bwV4FIYQmnjZp-eGAgwgyDdc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672594017604-tq0p7bp1v706ss5gcc13i1li6fven6e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
