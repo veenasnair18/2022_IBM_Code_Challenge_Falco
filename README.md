@@ -18,11 +18,11 @@ The fast growth of online ordering has increased the demand for delivery labour 
 
 ## :bust_in_silhouette: Personas of the System
 Whom this system is most beneficial for?
-1.Business Owners 
+1. Business Owners 
 a.Reduces labour cost. 
 b.Fastest method.
 c.Business expansion .
-2.Customers
+2. Customers
 a.No contact delivery.
 b.less time delay.
 
