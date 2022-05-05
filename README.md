@@ -3,7 +3,7 @@
 ![drone_delivery-removebg-preview](https://user-images.githubusercontent.com/38048590/166652285-784d3b30-de2c-4d8f-9c23-7e0c7022fc41.png)
 
 # 
-add some about
+An application that promises you fastest and no contact delivery. 
 
 
 
@@ -20,7 +20,6 @@ The fast growth of online ordering has increased the demand for delivery labour 
 
 
 # :bust_in_silhouette: Personas of the System
-Whom this system is most beneficial for?
 <ol>
   <li>Business Owners</li>
   <ul>
