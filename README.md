@@ -7,7 +7,7 @@ add some about
 
 
 
-# List of Contributors
+# :brain: List of Contributors
 1. <a href =  "https://github.com/Arjun-K-S">Arjun K.S </a>, RIT Kottayam
 2. <a href =  "https://github.com/irfadkp">Irfad K.P </a>, RIT Kottayam
 3. <a href =  "https://github.com/Rekhil-123">Rekhil </a>, RIT Kottayam
@@ -30,7 +30,7 @@ a. No contact delivery.
 b. Less time delay.
 
 
-# Architecture
+# :jigsaw: Architecture
 ## 1. The architecture diagram 
 ![architecture diagram](https://user-images.githubusercontent.com/38048590/166970583-e016e7c2-e751-4e1a-931a-d0af982d4df8.jpg)
 
@@ -43,13 +43,17 @@ b. Less time delay.
 ## 4. The data model
 ![data model](https://user-images.githubusercontent.com/38048590/166970784-ea84fa89-2ad0-41fb-91f5-ef7edd5330b6.png)
 
+# :floppy_disk: Technologies used
+<ul>
+  <li>Ardupilot</li>
+  <li>Flutter</li>
+  <li>Darknet YOLOV4</li>
+</ul>
+
+# :camera_flash: Screenshots
 
 
-<!-- ABOUT THE PROJECT -->
-## :bulb: About The Project
-
-<!-- LICENSE -->
-## :page_facing_up: License 
+# :page_facing_up: License 
 
 Distributed under the Apache-2.0  License. See `LICENSE.txt` for more information.
 
