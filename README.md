@@ -63,7 +63,14 @@ The fast growth of online ordering has increased the demand for delivery labour 
 </ul>
 
 # :camera_flash: Demo
+## Simulation
+
 ![demogif](https://user-images.githubusercontent.com/38048590/166983606-5939bb44-6236-4b34-9311-73ceb502c9df.gif)
+
+## Customer App Demo
+
+https://user-images.githubusercontent.com/38048590/167090249-3d2f8845-5971-4d0e-ba64-7a829328409e.mp4
+
 
 
 
