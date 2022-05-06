@@ -62,7 +62,7 @@ The fast growth of online ordering has increased the demand for delivery labour 
   <li>Darknet YOLOV4</li>
 </ul>
 
-# :camera_flash: Demo
+# :camera_flash: Project Walk through
 ## Simulation
 
 ![demogif](https://user-images.githubusercontent.com/38048590/166983606-5939bb44-6236-4b34-9311-73ceb502c9df.gif)
@@ -71,10 +71,17 @@ The fast growth of online ordering has increased the demand for delivery labour 
 
 https://user-images.githubusercontent.com/38048590/167090249-3d2f8845-5971-4d0e-ba64-7a829328409e.mp4
 
-<a href =  "https://drive.google.com/file/d/1rOipYdhoXzl5sfDq_dEvc7HpHpdb4gTo/view?usp=sharing">Controller App Demo </a>
+## Controller App 
 
 
-[![Watch the video](http://addplaybuttontoimage.way4info.net/Images/Icons/7.png)](https://drive.google.com/file/d/1rOipYdhoXzl5sfDq_dEvc7HpHpdb4gTo/view?usp=sharing)
+https://user-images.githubusercontent.com/38048590/167132408-1dd7799a-406d-49fe-8afd-3198591d5b8d.mp4
+
+
+## Presentation
+<a href =  "https://docs.google.com/presentation/d/1jfx__Y4fe8OxyicySVLplO8Whu7s96-mLHO1_9AM7GI/edit?usp=sharing"> Slides</a>
+
+
+
  
 
 
