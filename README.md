@@ -52,7 +52,11 @@ The fast growth of online ordering has increased the demand for delivery labour 
 ![usecase diagram](https://user-images.githubusercontent.com/38048590/166970713-177265e4-8b5e-4707-b9b3-a7a867bbbddc.jpeg)
 
 ## 4. The data model
+### User Application
 ![data](https://user-images.githubusercontent.com/38048590/167072989-0eac0aaf-ad41-4232-b6f7-5e68c2647db3.jpg)
+### Cotroller Application
+![dm](https://user-images.githubusercontent.com/38048590/167133335-bc5fd706-6a48-4339-a28f-1822b98a866c.jpg)
+
 
 
 # :floppy_disk: Technologies used
