@@ -40,9 +40,9 @@ class HomeView extends GetView<HomeController> {
                     ),
                   ),
                   orderCardWidget(
-                      "res1.jpg", "Kerala Cafe", "Kochi", "2.5", "Ramesh"),
+                      "res1.jpg", "Kerala Cafe", "Kochi", "2.5", "Ramesh",5),
                   orderCardWidget(
-                      "res2.jpg", "Mahe Cafe", "Kottayam", "1.75", "Sumesh"),
+                      "res2.jpg", "Mahe Cafe", "Kottayam", "1.75", "Sumesh",8),
                        Container(
                     margin:
                         EdgeInsets.symmetric(vertical: 10, horizontal: 20),
@@ -91,12 +91,13 @@ class HomeView extends GetView<HomeController> {
 
 class orderCardWidget extends StatelessWidget {
   orderCardWidget(@required this.image, @required this.resName,
-      @required this.place, @required this.weight, @required this.customerName);
+      @required this.place, @required this.weight, @required this.customerName,@required this.distance);
   final String image;
   final String resName;
   final String place;
   final String weight;
   final String customerName;
+  final int distance;
 
   void openDialog() {
     Get.dialog(
@@ -171,6 +172,8 @@ class orderCardWidget extends StatelessWidget {
           ],
         ),
         actions: [
+
+          
           TextButton(
               child: const Text("Select Drone"),
               onPressed: () => Get.to(DialogviewView())),
@@ -271,7 +274,7 @@ class orderCardWidget extends StatelessWidget {
     return Center(
         child: Container(
       width: Get.width * 0.98,
-      height: Get.height * 0.20,
+      height: Get.height * 0.21,
       padding: new EdgeInsets.symmetric(horizontal: 10, vertical: 2),
       child: Card(
         shape: RoundedRectangleBorder(
@@ -306,28 +309,28 @@ class orderCardWidget extends StatelessWidget {
                     Text(
                       resName,
                       style:
-                          TextStyle(fontSize: 17, fontWeight: FontWeight.w400),
+                          TextStyle(fontSize: 17, fontWeight: FontWeight.w500,color: Color.fromARGB(255, 157, 97, 199)),
                     ),
                     SizedBox(
-                      height: 2,
+                      height: 5,
                     ),
                     Text(
                       "Customer: ${customerName}",
                       style: TextStyle(fontSize: 14),
                     ),
                     SizedBox(
-                      height: 2,
+                      height: 5,
                     ),
                     Text(
-                      place,
+                      "${place} (${distance} Kms)",
                       style: TextStyle(fontSize: 14),
                     ),
                     SizedBox(
-                      height: 2,
+                      height: 5,
                     ),
                     Text(
-                      "${weight} KG",
-                      style: TextStyle(fontSize: 14),
+                      "${weight} Kg (Drones Available)",
+                      style: TextStyle(fontSize: 14,color: Colors.green),
                     ),
                     Row(
                       children: [

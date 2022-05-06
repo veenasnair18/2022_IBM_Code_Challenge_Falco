@@ -81,13 +81,20 @@ class droneCardWidget extends StatelessWidget {
           ],),
           SizedBox(height: 5,),
           Row(children: [
-            Text("Order Weight",style: TextStyle(),),
+            Text("Health Status",style: TextStyle(),),
             Spacer(),
             Text("${capacity}")
           ],),
           SizedBox(height: 5,),
+          Row(children: [
+            Text("Manufacturer Name",style: TextStyle(),),
+            Spacer(),
+            Text("Keltrone")
+          ],),
+        
+       
          
-          SizedBox(height: 5,),
+          Spacer(),
           FloatingActionButton.extended(
               label: Text('Close'), // <-- Text
               backgroundColor: Color.fromARGB(255, 157, 97, 199),
@@ -96,6 +103,7 @@ class droneCardWidget extends StatelessWidget {
                 Get.back();
               },
             ),
+            SizedBox(height: 5,)
         
         
          
