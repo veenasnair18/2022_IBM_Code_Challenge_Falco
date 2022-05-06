@@ -6,7 +6,7 @@
 1. <a href =  "https://github.com/Arjun-K-S">Arjun K.S </a>, RIT Kottayam
 2. <a href =  "https://github.com/irfadkp">Irfad K.P </a>, RIT Kottayam
 3. <a href =  "https://github.com/Rekhil-123">Rekhil </a>, RIT Kottayam
-4. <a href =  "https://github.com/xidhu">Sidharth </a>, RIT Kottayam
+4. <a href =  "https://github.com/xidhu">Sidharth S</a>, RIT Kottayam
 5. <a href =  "https://github.com/Vysakh-T">Vysakh T </a>, RIT Kottayam
 6. <a href =  "https://github.com/veenasnair18">Veena S Kumar </a>, RIT Kottayam
 
