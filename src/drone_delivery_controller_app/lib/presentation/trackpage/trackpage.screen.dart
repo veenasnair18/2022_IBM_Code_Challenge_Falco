@@ -8,16 +8,9 @@ class TrackpageScreen extends GetView<TrackpageController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('TrackpageScreen'),
-        centerTitle: true,
-      ),
-      body: Center(
-        child: Text(
-          'TrackpageScreen is working',
-          style: TextStyle(fontSize: 20),
-        ),
-      ),
+     body: Center(child: Container(
+       height: Get.height,
+       child: Image.asset("assets/map.jpg",fit:BoxFit.fill,))),
     );
   }
 }

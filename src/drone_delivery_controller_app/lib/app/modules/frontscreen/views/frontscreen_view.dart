@@ -2,6 +2,8 @@ import 'package:drone_delivery/app/modules/drone_list/views/drone_list_view.dart
 import 'package:drone_delivery/app/modules/home/views/dialogview_view.dart';
 import 'package:drone_delivery/app/modules/home/views/home_view.dart';
 import 'package:drone_delivery/app/modules/order_assign/views/order_assign_view.dart';
+import 'package:drone_delivery/app/modules/settings/views/settings_view.dart';
+import 'package:drone_delivery/presentation/trackpage/trackpage.screen.dart';
 import 'package:flutter/material.dart';
 
 import 'package:get/get.dart';
@@ -109,8 +111,8 @@ class FrontscreenView extends GetView<FrontscreenController> {
             children: [
               HomeView(),
               DroneListView(),
-              HomeView(),
-              DialogviewView(),
+              TrackpageScreen(),
+              SettingsView(),
             ],
           )),
     );
