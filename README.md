@@ -74,7 +74,7 @@ https://user-images.githubusercontent.com/38048590/167090249-3d2f8845-5971-4d0e-
 <a href =  "https://drive.google.com/file/d/1rOipYdhoXzl5sfDq_dEvc7HpHpdb4gTo/view?usp=sharing">Controller App Demo </a>
 
 
-[![Watch the video](https://appetiser.com.au/wp-content/uploads/2020/03/Top-5-Mobile-App-Development-Trends-Set-to-Rule-2020.png)](https://drive.google.com/file/d/1rOipYdhoXzl5sfDq_dEvc7HpHpdb4gTo/view?usp=sharing)
+[![Watch the video](http://addplaybuttontoimage.way4info.net/Images/Icons/7.png)](https://drive.google.com/file/d/1rOipYdhoXzl5sfDq_dEvc7HpHpdb4gTo/view?usp=sharing)
  
 
 
